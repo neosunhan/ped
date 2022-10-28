@@ -1,0 +1,444 @@
+Oct 28, 2022 3:56:49 PM seedu.address.MainApp init
+INFO: =============================[ Initializing TeachersPet ]===========================
+Oct 28, 2022 3:56:49 PM seedu.address.MainApp initConfig
+INFO: Using config file : config.json
+Oct 28, 2022 3:56:49 PM seedu.address.commons.util.JsonUtil readJsonFile
+INFO: Json file config.json not found
+Oct 28, 2022 3:56:49 PM seedu.address.MainApp initPrefs
+INFO: Using prefs file : preferences.json
+Oct 28, 2022 3:56:49 PM seedu.address.commons.util.JsonUtil readJsonFile
+INFO: Json file preferences.json not found
+Oct 28, 2022 3:56:49 PM seedu.address.commons.core.LogsCenter init
+INFO: currentLogLevel: INFO
+Oct 28, 2022 3:56:49 PM seedu.address.commons.util.JsonUtil readJsonFile
+INFO: Json file data\teachersPet.json not found
+Oct 28, 2022 3:56:49 PM seedu.address.MainApp initModelManager
+INFO: Data file not found. Will be starting with a sample TeachersPet
+Oct 28, 2022 3:56:49 PM seedu.address.MainApp start
+INFO: Starting TeachersPet V0.2.0ea
+Oct 28, 2022 3:56:49 PM seedu.address.ui.UiManager start
+INFO: Starting UI...
+Oct 28, 2022 4:18:53 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][help]
+Oct 28, 2022 4:18:53 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Opened help window.
+Oct 28, 2022 4:18:59 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][help fdsafds]
+Oct 28, 2022 4:18:59 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Opened help window.
+Oct 28, 2022 4:19:01 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Oct 28, 2022 4:19:01 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Listed all persons
+Oct 28, 2022 4:19:20 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add]
+Oct 28, 2022 4:19:20 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: add
+Oct 28, 2022 4:19:44 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add n/Ben Tan p/87201223 np/90125012 e/BenTan@gmail.com a/Avenue 712]
+Oct 28, 2022 4:19:44 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: New person added: Ben Tan; Phone: 87201223; Next of Kin Phone: 90125012; Email: BenTan@gmail.com; Address: Avenue 712; Class Date: ; Money Owed: 0; Money Paid: 0; Money Per Class: 40; Additional notes: ; Mark: false; Displayed Class: 
+Oct 28, 2022 4:21:27 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][pay 2 30]
+Oct 28, 2022 4:21:27 PM seedu.address.logic.LogicManager execute
+INFO: Invalid command: pay 2 30
+Oct 28, 2022 4:21:27 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: pay 2 30
+Oct 28, 2022 4:23:19 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 7 dt/Sat 1100-1200]
+Oct 28, 2022 4:23:19 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Edited Person: Ben Tan; Phone: 87201223; Next of Kin Phone: 90125012; Email: BenTan@gmail.com; Address: Avenue 712; Class Date: 29 Oct 2022 11AM-12PM; Money Owed: 0; Money Paid: 0; Money Per Class: 40; Additional notes: ; Mark: false; Displayed Class: 29 Oct 2022 11AM-12PM
+Oct 28, 2022 4:23:41 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 1 dt/fri 1100-1200]
+Oct 28, 2022 4:23:41 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Edited Person: Alex Yeoh; Phone: 87438807; Next of Kin Phone: 89705432; Email: alexyeoh@example.com; Address: Blk 30 Geylang Street 29, #06-40; Class Date: 04 Nov 2022 11AM-12PM; Money Owed: 0; Money Paid: 0; Money Per Class: 40; Additional notes: ; Mark: false; Displayed Class: 04 Nov 2022 11AM-12PM; Tags: [python]
+Oct 28, 2022 4:24:00 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 1 dt/fri 1700-1800]
+Oct 28, 2022 4:24:00 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Edited Person: Alex Yeoh; Phone: 87438807; Next of Kin Phone: 89705432; Email: alexyeoh@example.com; Address: Blk 30 Geylang Street 29, #06-40; Class Date: 28 Oct 2022 5PM-6PM; Money Owed: 0; Money Paid: 0; Money Per Class: 40; Additional notes: ; Mark: false; Displayed Class: 28 Oct 2022 5PM-6PM; Tags: [python]
+Oct 28, 2022 4:24:12 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 2 dt/fri 1730-1800]
+Oct 28, 2022 4:24:12 PM seedu.address.logic.LogicManager execute
+INFO: Invalid command: edit 2 dt/fri 1730-1800
+Oct 28, 2022 4:24:12 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: edit 2 dt/fri 1730-1800
+Oct 28, 2022 4:24:19 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 2 dt/fri 1800-1900]
+Oct 28, 2022 4:24:19 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Edited Person: Bernice Yu; Phone: 99272758; Next of Kin Phone: 93706732; Email: berniceyu@example.com; Address: Blk 30 Lorong 3 Serangoon Gardens, #07-18; Class Date: 28 Oct 2022 6PM-7PM; Money Owed: 0; Money Paid: 0; Money Per Class: 40; Additional notes: ; Mark: false; Displayed Class: 28 Oct 2022 6PM-7PM; Tags: [Java][python]
+Oct 28, 2022 4:25:06 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 3 dt/fri 1900-1800]
+Oct 28, 2022 4:25:06 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: edit 3 dt/fri 1900-1800
+Oct 28, 2022 4:25:18 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 3 dt/fri 1900-1900]
+Oct 28, 2022 4:25:18 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: edit 3 dt/fri 1900-1900
+Oct 28, 2022 4:25:22 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 3 dt/fri 1900-1901]
+Oct 28, 2022 4:25:22 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Edited Person: Charlotte Oliveiro; Phone: 93210283; Next of Kin Phone: 66554163; Email: charlotte@example.com; Address: Blk 11 Ang Mo Kio Street 74, #11-04; Class Date: 28 Oct 2022 7PM-7.01PM; Money Owed: 0; Money Paid: 0; Money Per Class: 40; Additional notes: ; Mark: false; Displayed Class: 28 Oct 2022 7PM-7.01PM; Tags: [Java]
+Oct 28, 2022 4:26:09 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 1 nt/foo]
+Oct 28, 2022 4:26:09 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Edited Person: Alex Yeoh; Phone: 87438807; Next of Kin Phone: 89705432; Email: alexyeoh@example.com; Address: Blk 30 Geylang Street 29, #06-40; Class Date: 28 Oct 2022 5PM-6PM; Money Owed: 0; Money Paid: 0; Money Per Class: 40; Additional notes: foo; Mark: false; Displayed Class: 28 Oct 2022 5PM-6PM; Tags: [python]
+Oct 28, 2022 4:26:12 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 1 nt/fdaf]
+Oct 28, 2022 4:26:12 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Edited Person: Alex Yeoh; Phone: 87438807; Next of Kin Phone: 89705432; Email: alexyeoh@example.com; Address: Blk 30 Geylang Street 29, #06-40; Class Date: 28 Oct 2022 5PM-6PM; Money Owed: 0; Money Paid: 0; Money Per Class: 40; Additional notes: fdaf; Mark: false; Displayed Class: 28 Oct 2022 5PM-6PM; Tags: [python]
+Oct 28, 2022 4:26:20 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 1 nt-a/fdsfdsf]
+Oct 28, 2022 4:26:20 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Edited Person: Alex Yeoh; Phone: 87438807; Next of Kin Phone: 89705432; Email: alexyeoh@example.com; Address: Blk 30 Geylang Street 29, #06-40; Class Date: 28 Oct 2022 5PM-6PM; Money Owed: 0; Money Paid: 0; Money Per Class: 40; Additional notes: fdaf fdsfdsf; Mark: false; Displayed Class: 28 Oct 2022 5PM-6PM; Tags: [python]
+Oct 28, 2022 4:26:41 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 1 nt/a fdsfdsf\nfdsfsd]
+Oct 28, 2022 4:26:41 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Edited Person: Alex Yeoh; Phone: 87438807; Next of Kin Phone: 89705432; Email: alexyeoh@example.com; Address: Blk 30 Geylang Street 29, #06-40; Class Date: 28 Oct 2022 5PM-6PM; Money Owed: 0; Money Paid: 0; Money Per Class: 40; Additional notes: a fdsfdsf\nfdsfsd; Mark: false; Displayed Class: 28 Oct 2022 5PM-6PM; Tags: [python]
+Oct 28, 2022 4:26:47 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 1 nt/foo]
+Oct 28, 2022 4:26:47 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Edited Person: Alex Yeoh; Phone: 87438807; Next of Kin Phone: 89705432; Email: alexyeoh@example.com; Address: Blk 30 Geylang Street 29, #06-40; Class Date: 28 Oct 2022 5PM-6PM; Money Owed: 0; Money Paid: 0; Money Per Class: 40; Additional notes: foo; Mark: false; Displayed Class: 28 Oct 2022 5PM-6PM; Tags: [python]
+Oct 28, 2022 4:26:54 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 1 nt-a/bar\nbaz]
+Oct 28, 2022 4:26:54 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Edited Person: Alex Yeoh; Phone: 87438807; Next of Kin Phone: 89705432; Email: alexyeoh@example.com; Address: Blk 30 Geylang Street 29, #06-40; Class Date: 28 Oct 2022 5PM-6PM; Money Owed: 0; Money Paid: 0; Money Per Class: 40; Additional notes: foo bar\nbaz; Mark: false; Displayed Class: 28 Oct 2022 5PM-6PM; Tags: [python]
+Oct 28, 2022 4:27:06 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 1 nt-a/fdsf"]
+Oct 28, 2022 4:27:06 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Edited Person: Alex Yeoh; Phone: 87438807; Next of Kin Phone: 89705432; Email: alexyeoh@example.com; Address: Blk 30 Geylang Street 29, #06-40; Class Date: 28 Oct 2022 5PM-6PM; Money Owed: 0; Money Paid: 0; Money Per Class: 40; Additional notes: foo bar\nbaz fdsf"; Mark: false; Displayed Class: 28 Oct 2022 5PM-6PM; Tags: [python]
+Oct 28, 2022 4:27:30 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 1 -a nt/a fdsf\n\t";fdsf]
+Oct 28, 2022 4:27:30 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: edit 1 -a nt/a fdsf\n\t";fdsf
+Oct 28, 2022 4:27:31 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 1 -a nt/a fdsf\n\t";fdsf]
+Oct 28, 2022 4:27:31 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: edit 1 -a nt/a fdsf\n\t";fdsf
+Oct 28, 2022 4:28:05 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 1 -a nt/a fdsf\n\t"fdsf]
+Oct 28, 2022 4:28:05 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: edit 1 -a nt/a fdsf\n\t"fdsf
+Oct 28, 2022 4:28:08 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 1 -a nt/a fdsf\n\tfdsf]
+Oct 28, 2022 4:28:08 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: edit 1 -a nt/a fdsf\n\tfdsf
+Oct 28, 2022 4:28:35 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 1 -a nt-a/ fdsf\nfdsf\tfd"; fdsfsf]
+Oct 28, 2022 4:28:35 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: edit 1 -a nt-a/ fdsf\nfdsf\tfd"; fdsfsf
+Oct 28, 2022 4:28:39 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 1 -a nt-a/fdsf\nfdsf\tfd"; fdsfsf]
+Oct 28, 2022 4:28:39 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: edit 1 -a nt-a/fdsf\nfdsf\tfd"; fdsfsf
+Oct 28, 2022 4:28:45 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 1 -a nt-a/fdsf\nfdsf\tfd" fdsfsf]
+Oct 28, 2022 4:28:45 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: edit 1 -a nt-a/fdsf\nfdsf\tfd" fdsfsf
+Oct 28, 2022 4:28:58 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 1 nt-a/ fdsf\nfdsf\tfd"; fdsfsf]
+Oct 28, 2022 4:28:58 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Edited Person: Alex Yeoh; Phone: 87438807; Next of Kin Phone: 89705432; Email: alexyeoh@example.com; Address: Blk 30 Geylang Street 29, #06-40; Class Date: 28 Oct 2022 5PM-6PM; Money Owed: 0; Money Paid: 0; Money Per Class: 40; Additional notes: foo bar\nbaz fdsf" fdsf\nfdsf\tfd"; fdsfsf; Mark: false; Displayed Class: 28 Oct 2022 5PM-6PM; Tags: [python]
+Oct 28, 2022 4:29:19 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][pay 2 40]
+Oct 28, 2022 4:29:19 PM seedu.address.logic.LogicManager execute
+INFO: Invalid command: pay 2 40
+Oct 28, 2022 4:29:19 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: pay 2 40
+Oct 28, 2022 4:29:34 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][pay 2 -1]
+Oct 28, 2022 4:29:34 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: pay 2 -1
+Oct 28, 2022 4:30:11 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 4 dt/fri 1630-1700]
+Oct 28, 2022 4:30:11 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Edited Person: David Li; Phone: 91031282; Next of Kin Phone: 91726932; Email: lidavid@example.com; Address: Blk 436 Serangoon Gardens Street 26, #16-43; Class Date: 04 Nov 2022 4.30PM-5PM; Money Owed: 0; Money Paid: 0; Money Per Class: 40; Additional notes: ; Mark: false; Displayed Class: 04 Nov 2022 4.30PM-5PM; Tags: [python]
+Oct 28, 2022 4:30:26 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 4 dt/fri 1645-1700]
+Oct 28, 2022 4:30:26 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Edited Person: David Li; Phone: 91031282; Next of Kin Phone: 91726932; Email: lidavid@example.com; Address: Blk 436 Serangoon Gardens Street 26, #16-43; Class Date: 28 Oct 2022 4.45PM-5PM; Money Owed: 0; Money Paid: 0; Money Per Class: 40; Additional notes: ; Mark: false; Displayed Class: 28 Oct 2022 4.45PM-5PM; Tags: [python]
+Oct 28, 2022 4:31:31 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][find /fri]
+Oct 28, 2022 4:31:31 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: find /fri
+Oct 28, 2022 4:31:35 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][find dt/fri]
+Oct 28, 2022 4:31:35 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: 0 persons listed!
+Oct 28, 2022 4:31:44 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Oct 28, 2022 4:31:45 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Listed all persons
+Oct 28, 2022 4:31:55 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][find dt/sat]
+Oct 28, 2022 4:31:55 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: 1 persons listed!
+Oct 28, 2022 4:32:03 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][find t/python]
+Oct 28, 2022 4:32:03 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: 3 persons listed!
+Oct 28, 2022 4:32:13 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][avail]
+Oct 28, 2022 4:32:13 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: avail
+Oct 28, 2022 4:32:32 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][avail 1730-1830]
+Oct 28, 2022 4:32:32 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: avail 1730-1830
+Oct 28, 2022 4:33:04 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][avail 1730 30]
+Oct 28, 2022 4:33:04 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: avail 1730 30
+Oct 28, 2022 4:33:12 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][avail 1730-1800 30]
+Oct 28, 2022 4:33:12 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Available date is: 28 Oct 2022 5.30PM-6PM
+Oct 28, 2022 4:33:40 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][avail 1730-1800 30]
+Oct 28, 2022 4:33:40 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Available date is: 28 Oct 2022 5.30PM-6PM
+Oct 28, 2022 4:34:45 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][avail 1730-1800 2]
+Oct 28, 2022 4:34:45 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Available date is: 28 Oct 2022 5.30PM-5.32PM
+Oct 28, 2022 4:35:15 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][avail 1900-1930 15]
+Oct 28, 2022 4:35:15 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Available date is: 28 Oct 2022 7.01PM-7.16PM
+Oct 28, 2022 4:35:35 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][avail 1700-1730 15]
+Oct 28, 2022 4:35:35 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Available date is: 28 Oct 2022 5PM-5.15PM
+Oct 28, 2022 4:38:22 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list]
+Oct 28, 2022 4:38:22 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Listed all persons
+Oct 28, 2022 4:38:57 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 1 owed/300]
+Oct 28, 2022 4:38:57 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Edited Person: Alex Yeoh; Phone: 87438807; Next of Kin Phone: 89705432; Email: alexyeoh@example.com; Address: Blk 30 Geylang Street 29, #06-40; Class Date: 28 Oct 2022 5PM-6PM; Money Owed: 300; Money Paid: 0; Money Per Class: 40; Additional notes: foo bar\nbaz fdsf" fdsf\nfdsf\tfd"; fdsfsf; Mark: false; Displayed Class: 28 Oct 2022 5PM-6PM; Tags: [python]
+Oct 28, 2022 4:39:05 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][pay 2 20]
+Oct 28, 2022 4:39:05 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Student has successfully paid
+Oct 28, 2022 4:39:22 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][mark 1]
+Oct 28, 2022 4:39:22 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Student has been marked as present
+Oct 28, 2022 4:39:25 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][mark 1]
+Oct 28, 2022 4:39:25 PM seedu.address.logic.LogicManager execute
+INFO: Invalid command: mark 1
+Oct 28, 2022 4:39:25 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: mark 1
+Oct 28, 2022 4:39:32 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][mark 0]
+Oct 28, 2022 4:39:32 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: mark 0
+Oct 28, 2022 4:39:33 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][mark]
+Oct 28, 2022 4:39:33 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: mark
+Oct 28, 2022 4:39:34 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][mark -3]
+Oct 28, 2022 4:39:34 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: mark -3
+Oct 28, 2022 4:39:37 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][mark fds]
+Oct 28, 2022 4:39:37 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: mark fds
+Oct 28, 2022 4:39:40 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][mark   ]
+Oct 28, 2022 4:39:40 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: mark   
+Oct 28, 2022 4:39:40 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][mark    ]
+Oct 28, 2022 4:39:40 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: mark    
+Oct 28, 2022 4:39:43 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][mark  1]
+Oct 28, 2022 4:39:43 PM seedu.address.logic.LogicManager execute
+INFO: Invalid command: mark  1
+Oct 28, 2022 4:39:43 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: mark  1
+Oct 28, 2022 4:39:52 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][pay 1 40]
+Oct 28, 2022 4:39:52 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Student has successfully paid
+Oct 28, 2022 4:39:58 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][pay 2 -3]
+Oct 28, 2022 4:39:58 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: pay 2 -3
+Oct 28, 2022 4:40:02 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][pay 2 300]
+Oct 28, 2022 4:40:02 PM seedu.address.logic.LogicManager execute
+INFO: Invalid command: pay 2 300
+Oct 28, 2022 4:40:02 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: pay 2 300
+Oct 28, 2022 4:40:06 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][pay 2 281]
+Oct 28, 2022 4:40:06 PM seedu.address.logic.LogicManager execute
+INFO: Invalid command: pay 2 281
+Oct 28, 2022 4:40:06 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: pay 2 281
+Oct 28, 2022 4:40:12 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][pay 2 280]
+Oct 28, 2022 4:40:12 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Student has successfully paid
+Oct 28, 2022 4:41:37 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][mark 2]
+Oct 28, 2022 4:41:37 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Student has been marked as present
+Oct 28, 2022 4:41:43 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][sort owed]
+Oct 28, 2022 4:41:43 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Sorted all students with the given order
+Oct 28, 2022 4:41:48 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][sort owed desc]
+Oct 28, 2022 4:41:48 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Sorted all students with the given order
+Oct 28, 2022 4:41:53 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][mark 3]
+Oct 28, 2022 4:41:53 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Student has been marked as present
+Oct 28, 2022 4:41:56 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][sort owed]
+Oct 28, 2022 4:41:56 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Sorted all students with the given order
+Oct 28, 2022 4:42:00 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][sort owed desc]
+Oct 28, 2022 4:42:01 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Sorted all students with the given order
+Oct 28, 2022 4:42:07 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][sort owed]
+Oct 28, 2022 4:42:07 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Sorted all students with the given order
+Oct 28, 2022 4:42:34 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 2 owed/20]
+Oct 28, 2022 4:42:34 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Edited Person: Bernice Yu; Phone: 99272758; Next of Kin Phone: 93706732; Email: berniceyu@example.com; Address: Blk 30 Lorong 3 Serangoon Gardens, #07-18; Class Date: 04 Nov 2022 6PM-7PM; Money Owed: 20; Money Paid: 0; Money Per Class: 40; Additional notes: ; Mark: true; Displayed Class: 28 Oct 2022 6PM-7PM; Tags: [Java][python]
+Oct 28, 2022 4:42:35 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][sort owed]
+Oct 28, 2022 4:42:36 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Sorted all students with the given order
+Oct 28, 2022 4:43:23 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][sort]
+Oct 28, 2022 4:43:23 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: sort
+Oct 28, 2022 4:43:39 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list owed]
+Oct 28, 2022 4:43:39 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Listed all persons
+Oct 28, 2022 4:43:42 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][sort]
+Oct 28, 2022 4:43:42 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: sort
+Oct 28, 2022 4:43:46 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][list owed]
+Oct 28, 2022 4:43:46 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Listed all persons
+Oct 28, 2022 4:43:47 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][sort]
+Oct 28, 2022 4:43:47 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: sort
+Oct 28, 2022 4:44:00 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][sort owed]
+Oct 28, 2022 4:44:00 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Sorted all students with the given order
+Oct 28, 2022 4:45:44 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][sort owed asc]
+Oct 28, 2022 4:45:44 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Sorted all students with the given order
+Oct 28, 2022 4:46:12 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][sort name desc]
+Oct 28, 2022 4:46:12 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Sorted all students with the given order
+Oct 28, 2022 4:46:23 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][delete 10]
+Oct 28, 2022 4:46:23 PM seedu.address.logic.LogicManager execute
+INFO: Invalid command: delete 10
+Oct 28, 2022 4:46:23 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: delete 10
+Oct 28, 2022 4:46:25 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][delete 0]
+Oct 28, 2022 4:46:25 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: delete 0
+Oct 28, 2022 4:46:28 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][delete 7 3]
+Oct 28, 2022 4:46:28 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Deletion successful!
+Oct 28, 2022 4:46:40 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][undo]
+Oct 28, 2022 4:46:40 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Undo successful
+Oct 28, 2022 4:47:12 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add n/Alex Yeoh]
+Oct 28, 2022 4:47:12 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: add n/Alex Yeoh
+Oct 28, 2022 4:47:25 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add n/Alex Yeoh p/87654321]
+Oct 28, 2022 4:47:25 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: add n/Alex Yeoh p/87654321
+Oct 28, 2022 4:47:51 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][add n/Alex Yeoh p/87654321 np/61234567 e/proxy@gmail.com a/oxley]
+Oct 28, 2022 4:47:51 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: New person added: Alex Yeoh; Phone: 87654321; Next of Kin Phone: 61234567; Email: proxy@gmail.com; Address: oxley; Class Date: ; Money Owed: 0; Money Paid: 0; Money Per Class: 40; Additional notes: ; Mark: false; Displayed Class: 
+Oct 28, 2022 4:48:08 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 8 dt/fri 1930-2000]
+Oct 28, 2022 4:48:08 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Edited Person: Alex Yeoh; Phone: 87654321; Next of Kin Phone: 61234567; Email: proxy@gmail.com; Address: oxley; Class Date: 28 Oct 2022 7.30PM-8PM; Money Owed: 0; Money Paid: 0; Money Per Class: 40; Additional notes: ; Mark: false; Displayed Class: 28 Oct 2022 7.30PM-8PM
+Oct 28, 2022 4:48:29 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 1 t/@]
+Oct 28, 2022 4:48:29 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: edit 1 t/@
+Oct 28, 2022 4:48:34 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 1 t/fdsf_fd]
+Oct 28, 2022 4:48:34 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: edit 1 t/fdsf_fd
+Oct 28, 2022 4:48:40 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 1 t/\]
+Oct 28, 2022 4:48:40 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: edit 1 t/\
+Oct 28, 2022 4:49:43 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 5 dt/2023-02-30]
+Oct 28, 2022 4:49:43 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: edit 5 dt/2023-02-30
+Oct 28, 2022 4:49:50 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 5 dt/2023-02-30 1900-1930]
+Oct 28, 2022 4:49:50 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: edit 5 dt/2023-02-30 1900-1930
+Oct 28, 2022 4:49:56 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 5 dt/2023-02-39 1900-1930]
+Oct 28, 2022 4:49:56 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: edit 5 dt/2023-02-39 1900-1930
+Oct 28, 2022 4:49:57 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 5 dt/2023-02-29 1900-1930]
+Oct 28, 2022 4:49:57 PM seedu.address.ui.MainWindow executeCommand
+INFO: Invalid command: edit 5 dt/2023-02-29 1900-1930
+Oct 28, 2022 4:49:58 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 5 dt/2023-02-28 1900-1930]
+Oct 28, 2022 4:49:58 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Edited Person: Bernice Yu; Phone: 99272758; Next of Kin Phone: 93706732; Email: berniceyu@example.com; Address: Blk 30 Lorong 3 Serangoon Gardens, #07-18; Class Date: 28 Feb 2023 7PM-7.30PM; Money Owed: 20; Money Paid: 0; Money Per Class: 40; Additional notes: ; Mark: true; Displayed Class: 28 Feb 2023 7PM-7.30PM; Tags: [Java][python]
+Oct 28, 2022 4:51:07 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][edit 8 dt/fri 1700-1730]
+Oct 28, 2022 4:51:07 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Edited Person: Alex Yeoh; Phone: 87654321; Next of Kin Phone: 61234567; Email: proxy@gmail.com; Address: oxley; Class Date: 28 Oct 2022 5PM-5.30PM; Money Owed: 0; Money Paid: 0; Money Per Class: 40; Additional notes: ; Mark: false; Displayed Class: 28 Oct 2022 5PM-5.30PM
+Oct 28, 2022 4:51:35 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][avail 1700-1800 15]
+Oct 28, 2022 4:51:35 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Available date is: 28 Oct 2022 5.30PM-5.45PM
+Oct 28, 2022 4:51:44 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][avail 1650-1900 15]
+Oct 28, 2022 4:51:44 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Available date is: 04 Nov 2022 6PM-6.15PM
+Oct 28, 2022 4:52:38 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][avail 1700-1800 15]
+Oct 28, 2022 4:52:38 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Available date is: 28 Oct 2022 5.30PM-5.45PM
+Oct 28, 2022 4:52:42 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][avail 1200-1300 15]
+Oct 28, 2022 4:52:42 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Available date is: 28 Oct 2022 5.30PM-5.45PM
+Oct 28, 2022 4:52:52 PM seedu.address.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][avail 1650-1900 15]
+Oct 28, 2022 4:52:52 PM seedu.address.ui.MainWindow executeCommand
+INFO: Result: Available date is: 04 Nov 2022 6PM-6.15PM
